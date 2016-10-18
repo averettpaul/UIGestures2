@@ -16,6 +16,7 @@
 		41A059EC1DA856B500F41FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A059EA1DA856B500F41FEA /* LaunchScreen.storyboard */; };
 		41A059F71DA856B500F41FEA /* UIGestures2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059F61DA856B500F41FEA /* UIGestures2Tests.m */; };
 		41A05A021DA856B500F41FEA /* UIGestures2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A05A011DA856B500F41FEA /* UIGestures2UITests.m */; };
+		41A05A111DA856E000F41FEA /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A05A101DA856E000F41FEA /* NotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		41A059FD1DA856B500F41FEA /* UIGestures2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGestures2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A05A011DA856B500F41FEA /* UIGestures2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGestures2UITests.m; sourceTree = "<group>"; };
 		41A05A031DA856B500F41FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A05A0F1DA856E000F41FEA /* NotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationView.h; sourceTree = "<group>"; };
+		41A05A101DA856E000F41FEA /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				41A059DD1DA856B500F41FEA /* AppDelegate.m */,
 				41A059DF1DA856B500F41FEA /* ViewController.h */,
 				41A059E01DA856B500F41FEA /* ViewController.m */,
+				41A05A0F1DA856E000F41FEA /* NotificationView.h */,
+				41A05A101DA856E000F41FEA /* NotificationView.m */,
 				41A059E21DA856B500F41FEA /* Main.storyboard */,
 				41A059E81DA856B500F41FEA /* Assets.xcassets */,
 				41A059EA1DA856B500F41FEA /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A059E11DA856B500F41FEA /* ViewController.m in Sources */,
+				41A05A111DA856E000F41FEA /* NotificationView.m in Sources */,
 				41A059DE1DA856B500F41FEA /* AppDelegate.m in Sources */,
 				41A059E71DA856B500F41FEA /* UIGestures2.xcdatamodeld in Sources */,
 				41A059DB1DA856B500F41FEA /* main.m in Sources */,

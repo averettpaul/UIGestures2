@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NotificationView.h
 //  UIGestures2
 //
 //  Created by AVERETT BARKSDALE on 10/7/16.
@@ -7,14 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NotificationView.h"
 
-@interface ViewController : UIViewController
-
-{
-    NotificationView *notificationView;
-}
-
+@interface NotificationView : UIView
 
 @end
-
